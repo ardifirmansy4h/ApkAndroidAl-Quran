@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#1C7B59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/panah" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umar bin Khattab"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.533" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="@id/textView7"
+        app:layout_constraintVertical_bias="0.197"
+        android:layout_marginTop="55dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="296dp"
+                android:layout_height="139dp"
+                android:layout_marginTop="64dp"
+                android:background="@drawable/gambarround"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/nabi" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Latar belakang "
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.105"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="60dp"
+                android:layout_height="21dp"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Nama lengkap Umar bin Khattab bin Nafiel bin Uzza, dilahirkan di Mekkah, dari Bani Adi, salah satu rumpun suku Quraisy. Ayahnya bernama Khaththab bin Nufail Al Shimh Al Quraisyi dan ibunya Hantamah binti Hasyim. Umar memiliki julukan yang diberikan oleh Muhammad yaitu Al-Faruq yang berarti orang yang bisa memisahkan antara yang haq dan bathil."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.094"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="320dp"
+                android:layout_height="114dp"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Keluarga Umar tergolong dalam keluarga kelas menengah, ia bisa membaca dan menulis yang pada masa itu merupakan sesuatu yang jarang. Umar juga dikenal, karena fisiknya yang kuat dimana ia menjadi juara gulat di Mekkah."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.479"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="318dp"
+                android:layout_height="147dp"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Sebelum memeluk Islam, sebagaimana tradisi kaum jahiliyah mekkah saat itu, Umar mengubur putrinya hidup-hidup. Sebagaimana yang ia katakan sendiri, “Aku menangis ketika menggali kubur untuk putriku. Dia maju dan kemudian menyisir janggutku”."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.478"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="318dp"
+                android:layout_height="261dp"
+                android:layout_marginTop="20dp"
+                android:text="Mabuk-mabukan juga merupakan hal yang umum dikalangan kaum Quraish. Beberapa catatan mengatakan bahwa pada masa pra-Islam, Umar suka meminum anggur. Setelah menjadi muslim, ia tidak menyentuh alkohol sama sekali. Tetapi, setelah masuk Islam, belum diturunkan larangan meminum khamar (yang memabukkan) secara tegas. Sehingga ada kisah, Pada malam hari, Umar bermabuk-mabukkan sampai Subuh. Ketika waktu Subuh tiba, beliau pergi ke masjid dan ditunjuk sebagai imam. Ketika membaca surat Al-Kafirun, karena ayat 3 dan 5 bunyinya sama, setelah membaca ayat ke 5, beliau ulang lagi ke ayat 4 terus menerus. Akhirnya, Allah menurunkan larangan bermabuk-mabukkan yang tegas."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.466"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Memeluk Islam "
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.104"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="327dp"
+                android:layout_height="148dp"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Ketika ajakan memeluk Islam dideklarasikan oleh Nabi Muhammad SAW, Umar mengambil posisi untuk membela agama tradisional kaum Quraish (menyembah berhala). Pada saat itu Umar adalah salah seorang yang sangat keras dalam melawan pesan Islam dan sering melakukan penyiksaan terhadap pemeluknya."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="333dp"
+                android:layout_height="370dp"
+                android:layout_marginTop="32dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Dikatakan bahwa pada suatu saat, Umar berketetapan untuk membunuh Muhammad SAW. Saat mencarinya, ia berpapasan dengan seorang muslim (Nu’aim bin Abdullah) yang kemudian memberi tahu bahwa saudara perempuannya juga telah memeluk Islam. Umar terkejut atas pemberitahuan itu dan pulang ke rumahnya.Di rumah Umar menjumpai bahwa saudaranya sedang membaca ayat-ayat Al Qur’an (surat Thoha), ia menjadi marah akan hal tersebut dan memukul saudaranya. Ketika melihat saudaranya berdarah oleh pukulannya ia menjadi iba, dan kemudian meminta agar bacaan tersebut dapat ia lihat.Ia kemudian menjadi sangat terguncang oleh isi Al Qur’an tersebut dan kemudian langsung memeluk Islam pada hari itu juga"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Kehidupan di Madinah "
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.111"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="326dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Umar adalah salah seorang yang ikut pada peristiwa hijrah ke Yatsrib (Madinah) pada tahun 622 Masehi. Ia ikut terlibat pada perang Badar, Uhud, Khaybar serta penyerangan ke Syria. Ia adalah salah seorang sahabat dekat Nabi Muhammad SAW."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.494"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Kematian Nabi Muhammad SAW "
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.13"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="341dp"
+                android:layout_height="196dp"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Setelah sakit dalam beberapa minggu, Nabi Muhammad SAW wafat pada hari senin tanggal 8 Juni 632 (12 Rabiul Awal, 10 Hijriah), di Madinah.   Persiapan pemakamannya dihambat oleh Umar yang melarang siapapun memandikan atau menyiapkan jasadnya untuk pemakaman. Ia berkeras bahwa Nabi tidaklah wafat melainkan sedang tidak berada dalam tubuh kasarnya, dan akan kembali sewaktu-waktu. (Hayatu Muhammad, M Husain Haikal) "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.542"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="325dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Abu Bakar yang kebetulan sedang berada di luar Madinah, demi mendengar kabar itu lantas bergegas kembali. Ia menjumpai Umar sedang menahan muslim yang lain dan lantas mengatakan:   “Saudara-saudara! Barangsiapa mau menyembah Muhammad, Muhammad sudah mati. Tetapi barangsiapa mau menyembah Allah, Allah hidup selalu tak pernah mati.” "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.366"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Abu Bakar kemudian membacakan ayat dari Al Qur’an :"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.558"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="341dp"
+                android:layout_height="151dp"
+                android:layout_marginTop="24dp"
+                android:lineSpacingExtra="5sp"
+                android:text="“Muhammad itu tidak lain hanyalah seorang rasul, sungguh telah berlalu sebelumnya beberapa orang rasul. Apakah Jika dia wafat atau dibunuh kamu berbalik ke belakang (murtad)? Barangsiapa yang berbalik ke belakang, maka ia tidak dapat mendatangkan mudharat kepada Allah sedikitpun, dan Allah akan memberi balasan kepada orang-orang yang bersyukur.” (surat Ali ‘Imran ayat 144)"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="340dp"
+                android:layout_height="158dp"
+                android:layout_marginTop="28dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Umar lantas menyerah dan membiarkan persiapan penguburan dilaksanakan.   Masa kekhalifahan Abu Bakar   Pada masa Abu Bakar menjabat sebagai khalifah, Umar merupakan salah satu penasehat kepalanya. Kemudian setelah meninggalnya Abu Bakar pada tahun 634, Umar ditunjuk menggantikannya. "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Menjadi khalifah"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.067"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="345dp"
+                android:layout_height="159dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Selama pemerintahan Umar, kekuasaan Islam tumbuh dengan sangat pesat. Islam mengambil alih Mesopotamia dan sebagian Persia dari tangan dinasti Sassanid dari Persia (yang mengakhiri masa kekaisaran sassanid) serta mengambil alih Mesir, Palestina, Syria, Afrika Utara dan Armenia dari kekaisaran Romawi (Byzantium)."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.515"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="347dp"
+                android:layout_height="226dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Sejarah mencatat banyak pertempuran besar yang menjadi awal penaklukan ini. Pada pertempuran Yarmuk, yang terjadi di dekat Damaskus pada tahun 636, 20 ribu pasukan Islam mengalahkan pasukan Romawi yang mencapai 70 ribu dan mengakhiri kekuasaan Romawi di Asia Kecil bagian selatan. Pasukan Islam lainnya dalam jumlah kecil mendapatkan kemenangan atas pasukan Persia dalam jumlah yang lebih besar pada pertempuran Qadisiyyah (th 636), di dekat sungai Eufrat."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.578"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="348dp"
+                android:layout_height="228dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Pada pertempuran itu, jenderal pasukan Islam yakni Sa`ad bin Abi Waqqas mengalahkan pasukan Sassanid dan berhasil membunuh jenderal Persia yang terkenal, Rustam Farrukhzad.  Pada tahun 637, setelah pengepungan yang lama terhadap Yerusalem, pasukan Islam akhirnya mengambil alih kota tersebut. Umar diberikan kunci untuk memasuki kota oleh pendeta Sophronius dan diundang untuk salat di dalam gereja (Church of the Holy Sepulchre). Umar memilih untuk salat ditempat lain agar tidak membahayakan gereja tersebut. 55 tahun kemudian, Masjid Umar didirikan ditempat ia salat. "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.578"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="331dp"
+                android:layout_height="365dp"
+                android:layout_marginTop="32dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Umar melakukan banyak reformasi secara administratif dan mengontrol dari dekat kebijakan publik, termasuk membangun sistem administratif untuk daerah yang baru ditaklukkan. Ia juga memerintahkan diselenggarakannya sensus di seluruh wilayah kekuasaan Islam. Tahun 638, ia memerintahkan untuk memperluas dan merenovasi Masjidil Haram di Mekkah dan Masjid Nabawi di Madinah. Ia juga memulai proses kodifikasi hukum Islam.  Umar dikenal dari gaya hidupnya yang sederhana, alih-alih mengadopsi gaya hidup dan penampilan para penguasa di zaman itu, ia tetap hidup sangat sederhana.   Pada sekitar tahun ke 17 Hijriah, tahun ke-empat kekhalifahannya, Umar mengeluarkan keputusan bahwa penanggalan Islam hendaknya mulai dihitung saat peristiwa hijrah "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Kematian"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.064"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="340dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Umar bin Khattab dibunuh oleh Abu Lukluk (Fairuz), seorang budak pada saat ia akan memimpin salat Subuh. Fairuz adalah salah seorang warga Persia yang masuk Islam setelah Persia ditaklukkan Umar. Pembunuhan ini konon dilatarbelakangi dendam pribadi Abu Lukluk (Fairuz) terhadap Umar. Fairuz merasa sakit hati atas kekalahan Persia, yang saat itu merupakan negara digdaya, oleh Umar. Peristiwa ini terjadi pada hari Rabu, 25 Dzulhijjah 23 H/644 M. Setelah kematiannya jabatan khalifah dipegang oleh Usman bin Affan.  Semasa Umar masih hidup Umar meninggalkan wasiat yaitu: "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="336dp"
+                android:layout_height="81dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="5sp"
+                android:text="1. Jika engkau menemukan cela pada seseorang dan engkau hendak mencacinya, maka cacilah dirimu. Karena celamu lebih banyak darinya. "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.404"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="335dp"
+                android:layout_height="76dp"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="5sp"
+                android:text="2. Bila engkau hendak memusuhi seseorang, maka musuhilah perutmu dahulu. Karena tidak ada musuh yang lebih berbahaya terhadapmu selain perut. "
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.437"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="334dp"
+                android:layout_height="87dp"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="5sp"
+                android:text="3. Bila engkau hendak memuji seseorang, pujilah ALLAH SWT. Karena tiada seorang manusia pun lebih banyak dalam memberi kepadamu dan lebih santun lembut kepadamu selain ALLAH SWT."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.408"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="336dp"
+                android:layout_height="68dp"
+                android:layout_marginTop="4dp"
+                android:lineSpacingExtra="5sp"
+                android:text="4. Jika engkau ingin meninggalkan sesuatu, maka tinggalkanlah kesenangan dunia. Sebab apabila engkau meninggalkannya, berarti engkau terpuji."
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.425"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="345dp"
+                android:layout_height="92dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="5sp"
+                android:text="5. Bila engkau bersiap-siap untuk sesuatu, maka bersiplah untuk mati. Karena jika engkau tidak bersiap untuk mati, engkau akan menderita, rugi ,dan penuh penyesalan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
